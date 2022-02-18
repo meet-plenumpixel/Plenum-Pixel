@@ -28,7 +28,7 @@
 
 -  **Set Types**: set, frozenset
 
-    1. **set VS frozenset**: 
+     1. **set VS frozenset**: \
     In Python, frozenset is the same as set except the **frozensets are immutable** which means that elements from the **frozenset cannot be added or removed once created.** This function takes input as any iterable object and converts them into an immutable object. The order of elements is not guaranteed to be preserved.
 
 -  **Boolean Type**: bool
