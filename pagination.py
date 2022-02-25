@@ -33,7 +33,6 @@ def pagination(current_page, total_pages, boundaries, around):
   start_boundaries = boundaries
   end_boundaries = total_pages - boundaries
 
-  # if not (0<(start_boundaries-end_boundaries)<total_pages):
   if not (0<=boundaries<total_pages):
     raise BaseException("make sure that boundaries are less than or equal to half of the total_pages")
 
