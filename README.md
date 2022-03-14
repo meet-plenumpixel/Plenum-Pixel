@@ -57,6 +57,25 @@
 - [string-operators](https://www.python-ds.com/python-3-string-operators)
 - [string-methods](https://www.python-ds.com/python-3-string-methods)
 
+- #### PEP 3101 -- Advanced String Formatting
+  - [Standard Format Specifiers](https://www.python.org/dev/peps/pep-3101/#standard-format-specifiers)
+  - [Explicit Conversion Flag](https://www.python.org/dev/peps/pep-3101/#explicit-conversion-flag)
+  - [User-Defined Formatting](https://www.python.org/dev/peps/pep-3101/#user-defined-formatting)
+
+
+- #### [String Module](https://docs.python.org/3/library/string.html#module-string)
+      format_spec     ::=  [[fill]align][sign][#][0][width][grouping_option][.precision][type]
+      fill            ::=  <any character>
+      align           ::=  "<" | ">" | "=" | "^"
+      sign            ::=  "+" | "-" | " "
+      width           ::=  digit+
+      grouping_option ::=  "_" | ","
+      precision       ::=  digit+
+      type            ::=  "b" | "c" | "d" | "e" | "E" | "f" | "F" | "g" | "G" | "n" | "o" | "s" | "x" | "X" | "%"
+
+  - [Custom String Formatting](https://docs.python.org/3/library/string.html#custom-string-formatting)
+
+
 
 ## Types of Arguments
 - [5 Types of Arguments in Python Function Definitions](https://levelup.gitconnected.com/5-types-of-arguments-in-python-function-definition-e0e2a2cafd29)
@@ -79,4 +98,39 @@ Method resolution order(MRO) in both the declaration style is different. Old sty
   - [Method Resolution Order in Python 3](https://medium.com/@__hungrywolf/mro-in-python-3-e2bcd2bd6851)
 
 
+
 ## Lazy loading 
+
+## Generators 
+
+
+
+## Built-in Function
+- [Built-in Functions](https://docs.python.org/3/library/functions.html)
+
+
+
+## Built-in Modules
+
+- ## iterators
+  - [How to build a basic iterator?](https://stackoverflow.com/questions/19151/how-to-build-a-basic-iterator/7542261#7542261)
+
+- ## re
+  - [official docs](https://docs.python.org/3/library/re.html)
+  - [Cheat Sheets](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
+  - [wikipedia](https://en.wikipedia.org/wiki/Regular_expression)
+- ## os
+- ## sys
+- ## pickle
+- ## json
+- ## csv
+- ## io
+- ## virtualenv
+
+
+
+## Third Party Modules
+
+- ## pyyaml
+- ## configparser (optional)
+
